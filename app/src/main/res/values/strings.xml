@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShiYan_3</string>
+    <string name="Text_ES_1">Activity作为监听器</string>
+    <string name="Text_ES_2">匿名内部类</string>
+    <string name="Text_ES_3">绑定到标签</string>
+    <string name="Text_ES_4">内部类</string>
+    <string name="Text_ES_5">外部类</string>
+    <string name="Text_ES_6">ButterKnife绑定</string>
+    <string name="Text_ES_7">系统信息</string>
+    <string name="Text_ES_8">模拟进度条</string>
+    <string name="TV_1">点击采用了Activity作为监听器的监听器</string>
+    <string name="TV_2">点击采用了匿名内部类的监听器</string>
+    <string name="TV_3">点击采用了绑定到标签的监听器</string>
+    <string name="TV_4">点击采用了内部类的监听器</string>
+    <string name="TV_5">点击采用了外部类的监听器</string>
+    <string name="TV_6">点击采用了ButterKnife绑定的监听器</string>
+</resources>

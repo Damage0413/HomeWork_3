@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/TV_1"
+            android:textSize="22sp"
+            android:gravity="center">
+        </TextView>
+
+        <Button
+            android:id="@+id/EventSource_1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_1"
+            android:textSize="18sp">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_2"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_2"
+            android:textSize="18sp">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_3"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_3"
+            android:textSize="18sp"
+            android:onClick="clickHandler">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_4"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_4"
+            android:textSize="18sp">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_5"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_5"
+            android:textSize="18sp">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_6"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_6"
+            android:textSize="18sp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/EventSource_7"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_7"
+            android:textSize="18sp">
+        </Button>
+
+        <Button
+            android:id="@+id/EventSource_8"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/Text_ES_8"
+            android:textSize="18sp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
